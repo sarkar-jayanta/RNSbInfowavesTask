@@ -5,7 +5,7 @@ export const getTimingData = async () => {
     const response = await axiosClient.get(
       `api/sample`
     );
-    return response;
+    return response.data;
   } catch (error) {
     return error;
   }

@@ -29,7 +29,7 @@ const appScreens: Array<{
 // AppStack component
 const AppStack = () => (
   <Stack.Navigator
-    initialRouteName="Splash"
+    initialRouteName="Home"
     screenOptions={defaultScreenOptions}>
     {appScreens.map(({name, component, options}) => (
       <Stack.Screen
